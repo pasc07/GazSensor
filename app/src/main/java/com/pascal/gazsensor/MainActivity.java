@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity implements NetworkAsyncTask.
 
         public void updateUIWhenStopingHTTPRequest(String response){
         int i=0;
-            response = MyHttpURLConnection.startHttpRequest("https://api.thingspeak.com/channels/1354241/fields/2.json?results=1");
+            //response = MyHttpURLConnection.startHttpRequest("https://api.thingspeak.com/channels/1354241/fields/2.json?results=1");
             //textView.setText(response);
             String jsonFile = response;
             String[] file;
